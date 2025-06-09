@@ -1,4 +1,8 @@
 <h1 align="center">Hi, I'm Rajat Parihar 👋</h1>
+<div align="center">
+<img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Frajat12826%2Frajat12826&label=VISITORS&labelColor=%23000&countColor=%230A0209" />
+  <br><br>
+</div>
 
 # 💫 About Me:  [![](https://visitcount.itsvg.in/api?id=rajat12826&icon=0&color=0)](https://visitcount.itsvg.in)
 - 🔭 I'm a Web Developer <br>- 🌱 Currently Learning GenAi and NEXTJs<br>- 🌱 Pursuing B.Tech in Computer Science and Engineering (2nd Year)<br>- 👯 I’m looking to collaborate on Generative Ai and  Full Stack Projects<br>- 👨‍💻 All of my projects are available at [**GitHub**](https://github.com/rajat12826/)
