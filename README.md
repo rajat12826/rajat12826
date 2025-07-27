@@ -5,7 +5,7 @@
 </div>
 
 # 💫 About Me:  [![](https://visitcount.itsvg.in/api?id=rajat12826&icon=0&color=0)](https://visitcount.itsvg.in)
-- 🔭 I'm a Web Developer <br>- 🌱 Currently Learning GenAi and NEXTJs<br>- 🌱 Pursuing B.Tech in Computer Science and Engineering (2nd Year)<br>- 👯 I’m looking to collaborate on Generative Ai and  Full Stack Projects<br>- 👨‍💻 All of my projects are available at [**GitHub**](https://github.com/rajat12826/)
+- 🔭 I'm a Web Developer <br>- 🌱 Currently Learning GenAi and NEXTJs<br>- 🌱 Pursuing B.Tech in Computer Science and Engineering (3rd Year)<br>- 👯 I’m looking to collaborate on Generative Ai and  Full Stack Projects<br>- 👨‍💻 All of my projects are available at [**GitHub**](https://github.com/rajat12826/)
 
 
 ## 🌐 Socials:
