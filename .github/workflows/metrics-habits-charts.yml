@@ -1,39 +1,41 @@
-permissions:
-  contents: write
-
-name: Recent Activity Charts
-
+name: Metrics
 on:
-  schedule:
-    - cron: "0 */12 * * *"
+  # Schedule updates (every 12 hours)
+  schedule: [{cron: "0 */12 * * *"}]
+  # (optional) Run workflow manually
   workflow_dispatch:
-  push:
-    branches:
-      - main
-      - master
-      - metrics
+  # (optional) Run workflow when pushing on master/main
+  push: {branches: ["master", "main"]}
 
 jobs:
-  recent-activity-charts:
+  github-metrics:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
     steps:
-      - name: Generate activity chart
-        uses: lowlighter/metrics@v3.34
+      - name: Habits Chart
+        uses: lowlighter/metrics@latest
         with:
+          # Your GitHub token (ensure it has repo and user scopes)
           token: ${{ secrets.METRICS_TOKEN }}
+
+          # Options
           user: rajat12826
-          filename: assets/metrics.plugin.habits.charts.svg
-          base: ""
-
-          plugin_habits: yes
-          plugin_habits_charts: yes
-          plugin_habits_facts: no
-
-          # Most stable window
-          plugin_habits_days: 30
-          plugin_habits_from: all
-          plugin_habits_trim: yes
-
+          template: classic
+          base: "" # This disables the header/base info to focus only on the chart
           config_timezone: Asia/Kolkata
+          
+          # Habits plugin configuration
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_habits_trim: yes
+          plugin_habits_days: 14
+          plugin_habits_from: 200 # Fetch more events to avoid the "undefined" error
+          
+          # Output file path
+          filename: assets/metrics.plugin.habits.charts.svg
+
+          # Optimization
           config_order: habits
+          queries_batch: 200
