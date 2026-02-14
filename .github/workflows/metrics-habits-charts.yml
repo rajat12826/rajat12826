@@ -19,28 +19,21 @@ jobs:
 
     steps:
       - name: Generate activity chart
-        uses: lowlighter/metrics@v3
+        uses: lowlighter/metrics@v3.34
         with:
-          # Required
           token: ${{ secrets.METRICS_TOKEN }}
           user: rajat12826
           filename: assets/metrics.plugin.habits.charts.svg
-
-          # Keep base empty (profile repo)
           base: ""
 
-          # Enable habits charts only
           plugin_habits: yes
           plugin_habits_charts: yes
           plugin_habits_facts: no
 
-          # Stability settings
-          plugin_habits_days: 14
+          # Most stable window
+          plugin_habits_days: 30
           plugin_habits_from: all
           plugin_habits_trim: yes
 
-          # Prevent extra plugin interference
-          config_order: habits
-
-          # Timezone
           config_timezone: Asia/Kolkata
+          config_order: habits
