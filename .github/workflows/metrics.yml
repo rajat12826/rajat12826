@@ -1,0 +1,21 @@
+name: Repository Contributors Metrics
+
+on:
+  schedule: [{cron: "0 0 * * *"}] # Updates daily
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.contributors.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          template: repository
+          repo: KS-ERP-SERVER
+          plugin_contributors: yes
+          plugin_contributors_contributions: yes

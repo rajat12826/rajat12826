@@ -1,0 +1,53 @@
+# ─────────────────────────────────────────────────────────────
+# 🚀 LeetCode Metrics • Auto-updated Profile Card
+# Docs: https://github.com/lowlighter/metrics
+# ─────────────────────────────────────────────────────────────
+
+name: 📊 LeetCode Metrics
+
+permissions:
+  contents: write
+
+on:
+  # ⏰ Auto-update every 12 hours
+  schedule:
+    - cron: "0 */12 * * *"
+
+  # ▶ Manual trigger from GitHub Actions UI
+  workflow_dispatch:
+
+  # 🔁 Update when pushing to main branches
+  push:
+    branches:
+      - master
+      - main
+      - metrics
+
+jobs:
+  leetcode-metrics:
+    name: 🧠 Generate LeetCode Card
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Generate LeetCode Metrics SVG
+        uses: lowlighter/metrics@latest
+        with:
+          # 📂 Output file
+          filename: assets/metrics.leetcode.svg
+
+          # 🔐 Not required for LeetCode plugin
+          token: NOT_NEEDED
+
+          # 🎨 Minimal clean look
+          base: ""
+
+          # 🧩 Enable LeetCode plugin
+          plugin_leetcode: yes
+          plugin_leetcode_user: CUxwlFCbOg
+
+          # 📌 Display sections
+          plugin_leetcode_sections: solved, skills, recent
+
+          # 🔢 Limits for clean visuals
+          plugin_leetcode_limit_recent: 5
+          plugin_leetcode_limit_skills: 7

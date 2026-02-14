@@ -1,3 +1,7 @@
+# Read the full reference here: https://github.com/lowlighter/metrics/blob/master/action.ym
+permissions:
+  contents: write
+
 name: Lines of Code Changed
 on:
   # Schedule updates (At minute 0 past every 12th hour)
