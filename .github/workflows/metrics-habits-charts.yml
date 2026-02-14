@@ -19,7 +19,15 @@ jobs:
           filename: assets/metrics.plugin.habits.charts.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
+          
+          # Habits plugin
           plugin_habits: yes
           plugin_habits_facts: no
           plugin_habits_charts: yes
+          
+          # 🔧 Stability Fixes
+          plugin_habits_days: 7
+          plugin_habits_events_limit: 100
+          plugin_habits_trim: yes
+          
           config_timezone: Asia/Kolkata
