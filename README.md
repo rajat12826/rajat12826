@@ -14,7 +14,7 @@
   <a href="https://linkedin.com/in/www.linkedin.com/in/rajat-parihar-681097306"><img src="https://img.shields.io/badge/LinkedIn-d5d5d5?style=for-the-badge&logo=linkedin&logoColor=0A0209" alt="profile of LinkedIn with username Rajat Parihar" /></a>
   <a href="https://dev.to/rajat128"><img src="https://img.shields.io/badge/dev.to-d5d5d5?style=for-the-badge&logo=devdotto&logoColor=0A0209" alt="profile of Dev.to with username rajat128" /></a> 
   <a href="https://hashnode.com/@rajat128"><img src="https://img.shields.io/badge/hashnode-d5d5d5?style=for-the-badge&logo=hashnode&logoColor=0A0209" alt="profile of HashNode with username rajat128" /></a> 
-  <a href="https://rajat-parihar.vercel.app/"><img src="https://img.shields.io/badge/portfolio-d5d5d5?style=for-the-badge&logo=Portfolio&logoColor=0A0209" alt="portfolio of rajat parihar" /></a>
+  <!-- <a href="https://rajat-parihar.vercel.app/"><img src="https://img.shields.io/badge/portfolio-d5d5d5?style=for-the-badge&logo=Portfolio&logoColor=0A0209" alt="portfolio of rajat parihar" /></a> -->
   <a href="mailto:pariharrajat078@gmail.com"><img src="https://img.shields.io/badge/Gmail-d5d5d5?style=for-the-badge&logo=gmail&logoColor=0A0209" alt="email of Rajat i.e. pariharrajat078@gmail.com" /></a>
 </div>
 
