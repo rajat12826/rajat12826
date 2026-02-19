@@ -30,8 +30,8 @@
 
 ### Full Stack Developer | AI Enthusiast | Competitive Programmer
 
-[![LeetCode](https://img.shields.io/badge/LeetCode-500+_Problems-FFA116?style=flat&logo=leetcode&logoColor=black)](https://leetcode.com/anmol4coder/)
-[![CodeChef](https://img.shields.io/badge/CodeChef-Active-5B4638?style=flat&logo=codechef&logoColor=white)](https://www.codechef.com/users/anmol119)
+[![LeetCode](https://img.shields.io/badge/LeetCode-500+_Problems-00C853?style=flat&logo=leetcode&logoColor=black)](https://leetcode.com/CUxwlFCbOg/)
+[![CodeChef](https://img.shields.io/badge/CodeChef-Active-5B4638?style=flat&logo=codechef&logoColor=white)](https://www.codechef.com/users/rajatp128)
 [![GitHub followers](https://img.shields.io/github/followers/rajat12826?label=Follow&style=social)](https://github.com/rajat12826)
 
 </div>
