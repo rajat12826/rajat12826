@@ -190,11 +190,11 @@ interests: [Web Development, AI/ML, System Design, Competitive Programming]
 <details open>
 <summary><b>💼 View My Work</b></summary>
 <br>
-
+<!--
 ### 🧠 OAForge
 **AI-Powered Assessment Platform** | [Live Demo](#) | [Source Code](#)
 
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+<!--![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
@@ -205,7 +205,8 @@ interests: [Web Development, AI/ML, System Design, Competitive Programming]
 - ⚙️ Full-stack build on NestJS + React + PostgreSQL + Redis + Groq
 
 ---
-
+ -->
+ 
 ### 🎯 LC Interview Buddy
 **SaaS Coding Platform** | [Live Demo](https://lc-interview-buddy.vercel.app/) | [Source Code](#)
 
