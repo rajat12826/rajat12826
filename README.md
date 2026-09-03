@@ -50,12 +50,6 @@ education:
   duration: Aug 2023 - May 2027
   cgpa: 9.52/10.0
 
-current:
-  role: Contract Full Stack Developer
-  company: Kreative Solutions
-  stack: [NestJS, React, TypeScript, PostgreSQL, Redis]
-  expanding_into: [Spring Boot, Java]
-
 experience:
   - role: Full Stack Developer Intern
     company: Aezire (R&D / Product Development)
@@ -66,14 +60,6 @@ experience:
       - Responsive architecture for mobile and desktop
 
 key_projects:
-  OAForge:
-    description: AI-powered assessment platform, flagship portfolio project
-    tech_stack: [NestJS, React, PostgreSQL, Redis, Groq]
-    features:
-      - Cohorts, daily challenges, and collections
-      - HMAC-signed internal endpoints
-      - Deployed on Vercel with Supabase
-
   LC Interview Buddy:
     description: SaaS coding platform with 1,800+ algorithmic problems
     tech_stack: [Next.js 15, Monaco Editor, Gemini AI, DodoPayments]
